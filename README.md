@@ -68,7 +68,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80'></video>
 </details>
 
-# Components / Replication Cost
+## Components / Replication Cost
 
 <table>
   
