@@ -6,7 +6,7 @@ This project implemented a fan with the following features:
 -3D models to house the fan and its components
 
 <p align="center">
-<img src='https://github.com/user-attachments/assets/d4c054e9-74d1-4dd2-a89b-95fae2e95bcb' width=200></img>
+<img src='https://github.com/user-attachments/assets/d4c054e9-74d1-4dd2-a89b-95fae2e95bcb' width=500></img>
 </p>
 
 ## Gesture Control
