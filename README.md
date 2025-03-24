@@ -1,5 +1,5 @@
 <p align="center">
-<big>IntelliFan</big>
+<large>IntelliFan</large><br>
 This project was created in collaboration between De Anza College & Infineon Technologies. The IntelliFan can automatically track a person and be controlled by gestures using the PSoC™ 6 AI Evaluation Kit and Raspberry Pi 4B. 
 </p>
 <p align="center">
