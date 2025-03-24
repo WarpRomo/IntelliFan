@@ -33,6 +33,8 @@ This project implemented a fan with the following features:
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80'></video>
 </details>
 
+## Person Tracking
+
 <details>
 <summary>Activate Person Tracking (Push)</summary>
 <video src='https://github.com/user-attachments/assets/fc57ce63-2856-483f-b487-e727094a77c3'></video>
