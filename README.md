@@ -12,7 +12,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 - 3D models to house the fan and its components
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/c37bad27-6932-42db-a552-c7289d9f442d" width="400"></img>
+<img src="https://github.com/user-attachments/assets/c37bad27-6932-42db-a552-c7289d9f442d"></img>
 </p>
 
 ## Person Tracking
@@ -20,7 +20,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <details>
 <summary>Person Tracking</summary>
   <div align="center">
-<video src='https://github.com/user-attachments/assets/445edbf3-a660-4a0f-84dc-7d0adf8acead'></video>
+<video src='https://github.com/user-attachments/assets/445edbf3-a660-4a0f-84dc-7d0adf8acead' width="400"></video>
   </div>
 </details>
 
