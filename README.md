@@ -11,6 +11,10 @@ This project was created in collaboration between De Anza College & Infineon Tec
 - Web-app so user can control fan with their phone / laptop
 - 3D models to house the fan and its components
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c37bad27-6932-42db-a552-c7289d9f442d"></img>
+</p>
+
 ## Person Tracking
 
 <details>
