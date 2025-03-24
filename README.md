@@ -10,7 +10,7 @@ This project implemented a fan with the following features:
 
 <details>
 <summary>Turn On (Up)</summary>
-<video src='https://github.com/user-attachments/assets/34af48d3-125a-4831-8df4-11eee752b68b'></video>
+https://github.com/user-attachments/assets/34af48d3-125a-4831-8df4-11eee752b68b
 </details>
 
 <details>
