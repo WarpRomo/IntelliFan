@@ -5,9 +5,8 @@ This project implemented a fan with the following features:
 -Webapp so user can control fan with their phone / laptop
 -3D models to house the fan and its components
 
-<p float="left">
-<img src='https://github.com/user-attachments/assets/5f94158d-d789-4246-b107-4b1713d51d1f' width=200></img>
-<img src='https://github.com/user-attachments/assets/0b226af6-06a2-4ce4-89f1-ff06ca33729c' width=200></img>
+<p align="center">
+<img src='https://github.com/user-attachments/assets/d4c054e9-74d1-4dd2-a89b-95fae2e95bcb' width=200></img>
 </p>
 
 ## Gesture Control
