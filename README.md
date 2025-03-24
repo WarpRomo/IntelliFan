@@ -16,7 +16,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 </p>
 
 ## Person Tracking
-Person tracking is done through the Raspberry Pi Camera 3 and YOLO X Nano on NCNN for optimized performance, alongside Byte Tracking to generate consistent IDs across frames to distinguish individuals. See https://github.com/Qengineering/YoloX-Tracking-ncnn-RPi_64-bit
+Person tracking is done through the Raspberry Pi Camera 3 and YOLO X Nano on NCNN for optimized performance, alongside Byte Tracking to generate consistent IDs across frames to distinguish individuals.<br>https://github.com/Qengineering/YoloX-Tracking-ncnn-RPi_64-bit
 
 <details>
 <summary>Person Tracking</summary>
@@ -44,7 +44,7 @@ Person tracking is done through the Raspberry Pi Camera 3 and YOLO X Nano on NCN
 </details>
 
 ## Gesture Control
-Gesture detection is done through radar using the BGT60TR13C sensor on the PSOC 6 Ai Evaluation Kit, which is then fed into DeepCraft's radar gesture model. See https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-ready-model
+Gesture detection is done through radar using the BGT60TR13C sensor on the PSOC 6 Ai Evaluation Kit, which is then fed into DeepCraft's radar gesture model.<br>https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-ready-model
 
 <details>
 <summary>Turn On (Up)</summary>
