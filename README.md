@@ -15,7 +15,7 @@ This project implemented a fan with the following features:
 
 <details>
 <summary>Turn Off (Down)</summary>
-<video src='https://github.com/user-attachments/assets/2ebcd7f2-937f-46ff-b61b-a43e5f5f2be0'></video>
+<video src='https://github.com/user-attachments/assets/2ebcd7f2-937f-46ff-b61b-a43e5f5f2be0' width=50></video>
 </details>
 
 <details>
