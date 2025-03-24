@@ -19,23 +19,26 @@ This project was created in collaboration between De Anza College & Infineon Tec
 
 <details>
 <summary>Person Tracking</summary>
-  <div align="center" style="width:400px">
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/445edbf3-a660-4a0f-84dc-7d0adf8acead'></video>
   </div>
 </details>
 
 <details>
 <summary>Activate Person Tracking (Push)</summary>
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/fc57ce63-2856-483f-b487-e727094a77c3'></video>
 </details>
 
 <details>
 <summary>Change Person (Left)</summary>
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/3c885a8b-cd1f-41d3-8687-49c4ffd364c1'></video>
 </details>
 
 <details>
 <summary>Change Person (Right)</summary>
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/9f6676e9-851d-4928-b4ec-0806f0841664'></video>
 </details>
 
@@ -43,21 +46,25 @@ This project was created in collaboration between De Anza College & Infineon Tec
 
 <details>
 <summary>Turn On (Up)</summary>
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/34af48d3-125a-4831-8df4-11eee752b68b'></video>
 </details>
 
 <details>
 <summary>Turn Off (Down)</summary>
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/2ebcd7f2-937f-46ff-b61b-a43e5f5f2be0'></video>
 </details>
 
 <details>
 <summary>Turn (Left)</summary>
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/a7d5c35e-6d0c-4e75-ad39-ca346158de2c'></video>
 </details>
 
 <details>
 <summary>Turn (Right)</summary>
+  <div align="center">
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80'></video>
 </details>
 
