@@ -24,12 +24,12 @@ This project implemented a fan with the following features:
 
 <tr>
   
-<th align="center">
+<th align="center" style="display: flex; flex-direction: column">
 <small>Turn (Left)</small>
 <video src='https://github.com/user-attachments/assets/a7d5c35e-6d0c-4e75-ad39-ca346158de2c' width=180/></video>
 </th>
   
-<th align="center">
+<th align="center" style="display: flex; flex-direction: column">
 <small>Turn (Right)</small>
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80' width=180/></video>
 </th>
