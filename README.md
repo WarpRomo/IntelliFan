@@ -75,11 +75,21 @@ This project was created in collaboration between De Anza College & Infineon Tec
   
 <tr>
 <th align="left">
-<small>Raspberry Pi 4 Model B (8GB RAM) + 32GB microSD Card</small>
+<small>Raspberry Pi 4 Model B (8GB RAM)</small>
 </th>
 
 <th>
 <small>$39.99</small>
+</th>
+</tr>
+
+<tr>
+<th align="left">
+<small>32GB microSD Card</small>
+</th>
+
+<th>
+<small>$9.99</small>
 </th>
 </tr>
 
