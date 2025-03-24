@@ -1,15 +1,15 @@
 # IntelliFan
 This project was created in collaboration between De Anza College & Infineon Technologies. The IntelliFan can automatically track a person and be controlled by gestures. We used the PSoC™ 6 AI Evaluation Kit and Raspberry Pi 4. 
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9ee6153f-9952-4676-a248-9d9905c61d2a"></img>
+</p>
+
 ## Features
 - Autotracking of people in front of the fan
 - Gestures such as swiping left / right / up / down, to control the fan
 - Web-app so user can control fan with their phone / laptop
 - 3D models to house the fan and its components
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/9ee6153f-9952-4676-a248-9d9905c61d2a"></img>
-</p>
 
 ## Person Tracking
 
