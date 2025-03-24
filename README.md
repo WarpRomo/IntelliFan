@@ -68,12 +68,12 @@ This project implemented a fan with the following features:
   
 <th align="center" style="display: flex; flex-direction: column">
 <small>Fan + Phone Interface</small><br>
-<img src='https://github.com/user-attachments/assets/4c78e68e-ed5b-43d4-a557-06008b673f71' width=180></img>
+<img src='https://github.com/user-attachments/assets/4c78e68e-ed5b-43d4-a557-06008b673f71'></img>
 </th>
 
 <th align="center" style="display: flex; flex-direction: column">
 <small>Phone Interface</small><br>
-<img src='https://github.com/user-attachments/assets/5e861817-e366-432e-806f-c15522aa40db' width=180></img>
+<img src='https://github.com/user-attachments/assets/0b226af6-06a2-4ce4-89f1-ff06ca33729c'></img>
 </th>
 
 </tr>
