@@ -5,8 +5,13 @@ This project implemented a fan with the following features:
 -Webapp so user can control fan with their phone / laptop
 -3D models to house the fan and its components
 
-## Demo Videos
+<small>Fan + Phone Interface</small>
+<img src='https://github.com/user-attachments/assets/5f94158d-d789-4246-b107-4b1713d51d1f' width=400></img>
 
+<small>Phone Interface</small>
+<img src='https://github.com/user-attachments/assets/0b226af6-06a2-4ce4-89f1-ff06ca33729c' width=400></img>
+
+## Gesture Control
 
 <details>
 <summary>Turn On (Up)</summary>
@@ -46,16 +51,6 @@ This project implemented a fan with the following features:
 <details>
 <summary>Change Person (Right)</summary>
 <video src='https://github.com/user-attachments/assets/9f6676e9-851d-4928-b4ec-0806f0841664'></video>
-</details>
-
-<details>
-<summary>Fan + Phone Interface</summary><br>
-<img src='https://github.com/user-attachments/assets/5f94158d-d789-4246-b107-4b1713d51d1f' width=400></img>
-</details>
-
-<details>
-<summary>Phone Interface</summary><br>
-<img src='https://github.com/user-attachments/assets/0b226af6-06a2-4ce4-89f1-ff06ca33729c' width=400></img>
 </details>
 
 
