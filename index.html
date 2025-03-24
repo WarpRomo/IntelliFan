@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IntelliFan - Infineon X De Anza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <p class="title" style="color: #64B5F6">IntelliFan</p>
+    <img src="res.png" id="liveimage">
+
+    <script src="index.js"></script>
+
+    <label class="switch">
+        <input type="checkbox" id="toggleSwitch">
+        <span class="slider"></span>
+    </label>
+
+    <p id="status">Gesture Mode</p>
+    <p id="gestureData">No Gesture Data.</p>
+
+    <div id="controlsContainer">
+        <div id="button-text">
+            <div class="button-container" style="opacity: 1">
+              <div class="square-container">
+                  <div class="arrow-wrapper">
+                    <button class="btn-left" id="leftButton"></button>
+                  </div>
+              </div>
+
+              <button class="btn-circle" id="colorToggleButton">Tracking</button>
+
+              <div class="square-container">
+                  <div class="arrow-wrapper">
+                    <button class="btn-right" id="rightButton"></button>
+                  </div>
+              </div>
+
+          </div>
+          <p id="message">Press a button!</p>
+        </div>
+
+      <div class="slider-container">
+          <input type="range" min="0" max="100" value="50" step="10" class="slider" id="mySlider">
+          <p class="slider-label">Speed: <span id="sliderValue">50</span></p>
+      </div>
+
+    </div>
+
+
+    <style>
+      body {
+        background: rgb(18, 18, 22);
+        color: white;
+        font-family: 'Montserrat', Helvetica, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        line-height: 1.6;
+      }
+
+      #button-text{
+        transition: opacity 0.25s;
+      }
+
+
+
+      #liveimage {
+        width: 95%;
+        max-width: 600px;
+        border-radius: 12px;
+        margin: 10px auto 15px;
+        display: block;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        z-index: 1;
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: 42px;
+        margin: 15px auto 20px;
+        border-bottom: solid 2px rgba(255, 255, 255, 0.2);
+        width: 95%;
+        max-width: 600px;
+        padding-bottom: 10px;
+        letter-spacing: 0.5px;
+      }
+
+      #status {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0px 0 10px;
+        letter-spacing: 0.5px;
+      }
+
+      #gestureData {
+        font-size: 22px;
+        background: rgba(255, 255, 0, 0);
+        padding: 10px 20px;
+        border-radius: 8px;
+        display: inline-block;
+        margin: 5px 0 20px;
+        min-width: 200px;
+        transition: background 0.3s ease;
+      }
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 76px;
+        height: 36px;
+        margin: 15px 0;
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #444;
+        transition: 0.4s;
+        border-radius: 34px;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+
+      .switch .slider:before {
+        position: absolute;
+        content: "";
+        height: 28px;
+        width: 28px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+
+      input:checked + .slider:before {
+        transform: translateX(40px);
+      }
+
+      .slider-container {
+        width: 100%;
+        margin: 20px auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+      }
+
+      .slider-container .slider {
+        width: 80%;
+        max-width: 500px;
+        height: 20px;
+        appearance: none;
+        background: linear-gradient(to right, #135a9e, #64B5F6);
+        border-radius: 10px;
+        outline: none;
+        transition: 0.2s;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+      }
+
+      .slider-container .slider::-webkit-slider-thumb {
+        appearance: none;
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        border: 3px solid #2196F3;
+      }
+
+      .slider-container .slider::-moz-range-thumb {
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        border: 3px solid #2196F3;
+      }
+
+      .slider-container .slider::-webkit-slider-thumb:hover {
+        transform: scale(1.15);
+        box-shadow: 0 3px 8px rgba(33, 150, 243, 0.6);
+      }
+
+      .slider-container .slider::-moz-range-thumb:hover {
+        transform: scale(1.15);
+        box-shadow: 0 3px 8px rgba(33, 150, 243, 0.6);
+      }
+
+      .slider-container .slider:active::-webkit-slider-thumb {
+        transform: scale(1.05);
+      }
+
+      .slider-container .slider:active::-moz-range-thumb {
+        transform: scale(1.05);
+      }
+
+      .slider-label {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 15px;
+        color: #64B5F6;
+      }
+
+      #sliderValue {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: nowrap;
+        width: 100%;
+        max-width: 550px;
+        margin: 15px auto 20px;
+      }
+
+      .square-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        border: 3px solid #2196F3;
+        background-color: rgba(33, 150, 243, 0.1);
+        border-radius: 12px;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+      }
+
+      .square-container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(33, 150, 243, 0.4);
+        border-color: #64B5F6;
+      }
+
+      .square-container:active {
+        transform: translateY(2px);
+        box-shadow: 0 2px 8px rgba(33, 150, 243, 0.3);
+      }
+
+      /* New wrapper for better arrow positioning */
+      .arrow-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .btn-left, .btn-right {
+        width: 0;
+        height: 0;
+        cursor: pointer;
+        background: none;
+        border: none;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+        outline: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .btn-left {
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-right: 50px solid #2196F3;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .btn-right {
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 50px solid #2196F3;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .btn-left:hover {
+        border-right-color: #64B5F6;
+        filter: drop-shadow(0 0 8px rgba(33, 150, 243, 0.6));
+      }
+
+      .btn-right:hover {
+        border-left-color: #64B5F6;
+        filter: drop-shadow(0 0 8px rgba(33, 150, 243, 0.6));
+      }
+
+      .btn-left:active {
+        border-right-color: #0d47a1;
+        transform: translate(-50%, -50%) scale(0.9);
+        transition: all 0.1s ease-in-out;
+      }
+
+      .btn-right:active {
+        border-left-color: #0d47a1;
+        transform: translate(-50%, -50%) scale(0.9);
+        transition: all 0.1s ease-in-out;
+      }
+
+      .white-background {
+        background-color: white;
+        color: #0d47a1;
+        font-weight: 600;
+      }
+
+      .blue-background {
+        background-color: #2196F3;
+        color: white;
+        font-weight: 600;
+      }
+
+      .btn-circle {
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: normal;
+        padding: 0;
+        box-sizing: border-box;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        letter-spacing: 0.5px;
+      }
+
+      .btn-circle:hover {
+        transform: scale(1.08);
+        box-shadow: 0 8px 25px rgba(33, 150, 243, 0.5);
+      }
+
+      .btn-circle:active {
+        transform: scale(0.92);
+        box-shadow: 0 2px 10px rgba(33, 150, 243, 0.4);
+        transition: all 0.1s ease-in-out;
+      }
+
+      #message {
+        font-size: 18px;
+        margin: 15px 0 5px;
+        min-height: 24px;
+        color: #8ebbdf;
+        font-weight: 600;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 480px) {
+        .button-container {
+          gap: 15px;
+        }
+
+        .square-container {
+          width: 80px;
+          height: 80px;
+        }
+
+        .btn-circle {
+          width: 90px;
+          height: 90px;
+          font-size: 18px;
+        }
+
+        .btn-left {
+          border-top: 25px solid transparent;
+          border-bottom: 25px solid transparent;
+          border-right: 40px solid #2196F3;
+        }
+
+        .btn-right {
+          border-top: 25px solid transparent;
+          border-bottom: 25px solid transparent;
+          border-left: 40px solid #2196F3;
+        }
+      }
+    </style>
+
+<script>
+    const toggleSwitch = document.getElementById("toggleSwitch");
+    const statusText = document.getElementById("status");
+    const controlsContainer = document.getElementById("controlsContainer");
+
+    toggleSwitch.addEventListener("change", () => {
+      if (toggleSwitch.checked) {
+        statusText.innerText = "Gesture Mode";
+        controlsContainer.style.display = "none";
+        document.getElementById("gestureData").style.display = ""
+        sendPostRequest("mode", 1)
+      } else {
+        statusText.innerText = "Phone Mode";
+        controlsContainer.style.display = "block";
+        document.getElementById("gestureData").style.display = "none"
+        sendPostRequest("mode", 0)
+      }
+      calibrate()
+    });
+
+    const slider = document.getElementById("mySlider");
+    const sliderValue = document.getElementById("sliderValue");
+
+    slider.addEventListener("input", () => {
+      sliderValue.innerText = slider.value;
+
+      console.log("Send speed", (slider.value / 10))
+
+      sendPostRequest("speed", slider.value / 10)
+      setButtonOpacity()
+
+    });
+
+    function setButtonOpacity(){
+      if(slider.value == 0){
+        document.getElementById("button-text").style.opacity = 0.35
+        document.getElementById("button-text").style.pointerEvents = 'none'
+      }
+      else{
+        document.getElementById("button-text").style.opacity = 1
+        document.getElementById("button-text").style.pointerEvents = 'auto'
+      }
+    }
+
+    document.getElementById("leftButton").addEventListener("click", function() {
+      document.getElementById("message").innerText = "Left button clicked!";
+      console.log("Send turn", -1)
+      sendPostRequest("turn", -1)
+    });
+
+    document.getElementById("rightButton").addEventListener("click", function() {
+      document.getElementById("message").innerText = "Right button clicked!";
+      console.log("Send turn", 1)
+      sendPostRequest("turn", 1)
+    });
+
+    const colorToggleButton = document.getElementById("colorToggleButton");
+
+    colorToggleButton.addEventListener("click", () => {
+      if (colorToggleButton.classList.contains("white-background")) {
+        colorToggleButton.classList.remove("white-background");
+        colorToggleButton.classList.add("blue-background");
+        console.log("Send tracking", 1)
+        sendPostRequest("tracking", 1)
+      } else {
+        colorToggleButton.classList.remove("blue-background");
+        colorToggleButton.classList.add("white-background");
+        console.log("Send tracking", 0)
+        sendPostRequest("tracking", 0)
+      }
+    });
+
+    colorToggleButton.classList.add("white-background");
+
+    calibrate()
+
+    function calibrate(){
+
+        fetch("/tracking")
+        .then(response => response.text())
+        .then(data => {
+
+          console.log("Got tracking", data)
+
+          data = parseInt(data)
+
+          if(data == 1){
+            colorToggleButton.classList.remove("white-background");
+            colorToggleButton.classList.add("blue-background");
+          }
+          else{
+            colorToggleButton.classList.remove("blue-background");
+            colorToggleButton.classList.add("white-background");
+          }
+
+        })
+
+        fetch("/mode")
+        .then(response => response.text())
+        .then(data => {
+
+          console.log("Got gesture", data)
+
+          data = parseInt(data)
+
+          if(data == 1){
+            toggleSwitch.checked = true
+            statusText.innerText = "Gesture Mode";
+            controlsContainer.style.display = "none";
+            document.getElementById("gestureData").style.display = ""
+          }
+          else{
+            toggleSwitch.checked = false;
+            statusText.innerText = "Phone  Mode";
+            controlsContainer.style.display = "block";
+            document.getElementById("gestureData").style.display = "none"
+          }
+
+        })
+
+
+        fetch("/speed")
+        .then(response => response.text())
+        .then(data => {
+
+          console.log("Got slider", data)
+
+          data = parseInt(data)
+
+          slider.value = data * 10;
+          sliderValue.innerText = slider.value;
+          setButtonOpacity()
+
+        })
+
+    }
+
+
+    let prevData = "None"
+
+    setInterval(() => {
+
+      let img = document.getElementById("liveimage")
+      img.src = "frame.jpg?t=" + new Date().getTime();
+
+      fetch("/gesture")
+        .then(response => response.text())
+        .then(data => {
+
+          let motion = data.split(" ")[0];
+
+          //board is on its side
+          if(motion == "SwipeUp"){
+            motion = "Right"
+          }
+          if(motion == "SwipeDown"){
+            motion = "Left"
+          }
+          if(motion == "SwipeLeft"){
+            motion = "Up"
+          }
+          if(motion == "SwipeRight"){
+            motion = "Down"
+          }
+
+          document.getElementById("gestureData").innerHTML = motion;
+          console.log("got gesture data")
+          console.log(data)
+          if(prevData != data){
+            prevData = data;
+            document.getElementById("gestureData").style.background = "rgba(255,255,0,0.5)"
+            setTimeout(() => {
+              document.getElementById("gestureData").style.background = "rgba(255,255,0,0)"
+            }, 500)
+          }
+        })
+
+    }, 250)
+
+
+
+    function sendPostRequest(endpoint, value) {
+        fetch(`/${endpoint}`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "text/plain"
+            },
+            body: value.toString() // Convert the integer to a string
+        })
+        .then(response => response.text()) // Read the response as text
+        .then(data => {
+            console.log(`Response from ${endpoint}:`, data);
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+    }
+  </script>
+</body>
+</html>
