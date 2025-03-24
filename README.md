@@ -25,12 +25,12 @@ This project implemented a fan with the following features:
 <tr>
   
 <th align="center">
-<small>Turn (Left)</small>
+<small>Turn (Left)</small><br>
 <video src='https://github.com/user-attachments/assets/a7d5c35e-6d0c-4e75-ad39-ca346158de2c' width=180/></video>
 </th>
   
 <th align="center">
-<small>Turn (Right)</small>
+<small>Turn (Right)</small><br>
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80' width=180/></video>
 </th>
   
