@@ -17,9 +17,9 @@ This project was created in collaboration between De Anza College & Infineon Tec
 
 ## Person Tracking
 
-<details width="400">
+<details width="200">
 <summary>Person Tracking</summary>
-  <div width="400">
+  <div width="200">
 <video src='https://github.com/user-attachments/assets/445edbf3-a660-4a0f-84dc-7d0adf8acead'></video>
   </div>
 </details>
