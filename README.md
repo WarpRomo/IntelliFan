@@ -1,5 +1,5 @@
 # IntelliFan
-Created in collaboration between De Anza College & Infineon Technologies. Using the PSoC™ 6 AI Evaluation Kit and Raspberry Pi 4.
+This project was created in collaboration between De Anza College & Infineon Technologies. The IntelliFan can automatically track a person and be controlled by gestures. We used the PSoC™ 6 AI Evaluation Kit and Raspberry Pi 4. 
 
 ## Features
 - Autotracking of people in front of the fan
@@ -10,6 +10,28 @@ Created in collaboration between De Anza College & Infineon Technologies. Using 
 <p align="center">
 <img src='https://github.com/user-attachments/assets/d4c054e9-74d1-4dd2-a89b-95fae2e95bcb' width=500></img>
 </p>
+
+## Person Tracking
+
+<details>
+<summary>Person Tracking</summary>
+<video src='https://github.com/user-attachments/assets/445edbf3-a660-4a0f-84dc-7d0adf8acead'></video>
+</details>
+
+<details>
+<summary>Activate Person Tracking (Push)</summary>
+<video src='https://github.com/user-attachments/assets/fc57ce63-2856-483f-b487-e727094a77c3'></video>
+</details>
+
+<details>
+<summary>Change Person (Left)</summary>
+<video src='https://github.com/user-attachments/assets/3c885a8b-cd1f-41d3-8687-49c4ffd364c1'></video>
+</details>
+
+<details>
+<summary>Change Person (Right)</summary>
+<video src='https://github.com/user-attachments/assets/9f6676e9-851d-4928-b4ec-0806f0841664'></video>
+</details>
 
 ## Gesture Control
 
@@ -31,28 +53,6 @@ Created in collaboration between De Anza College & Infineon Technologies. Using 
 <details>
 <summary>Turn (Right)</summary>
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80'></video>
-</details>
-
-## Person Tracking
-
-<details>
-<summary>Activate Person Tracking (Push)</summary>
-<video src='https://github.com/user-attachments/assets/fc57ce63-2856-483f-b487-e727094a77c3'></video>
-</details>
-
-<details>
-<summary>Person Tracking</summary>
-<video src='https://github.com/user-attachments/assets/445edbf3-a660-4a0f-84dc-7d0adf8acead'></video>
-</details>
-
-<details>
-<summary>Change Person (Left)</summary>
-<video src='https://github.com/user-attachments/assets/3c885a8b-cd1f-41d3-8687-49c4ffd364c1'></video>
-</details>
-
-<details>
-<summary>Change Person (Right)</summary>
-<video src='https://github.com/user-attachments/assets/9f6676e9-851d-4928-b4ec-0806f0841664'></video>
 </details>
 
 
