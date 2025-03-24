@@ -64,7 +64,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <table>
   
 <tr>
-<th>
+<th align="left">
 <small>Infineon PSoC™ 6 AI Evaluation Kit</small>
 </th>
   
@@ -74,7 +74,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 </tr>
   
 <tr>
-<th>
+<th align="left">
 <small>Raspberry Pi 4 Model B (8GB RAM) + 32GB microSD Card</small>
 </th>
 
@@ -84,7 +84,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 </tr>
 
 <tr>
-<th>
+<th align="left">
 <small>Raspberry Pi Camera Module 3</small>
 </th>
 
@@ -94,7 +94,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 </tr>
 
 <tr>
-<th>
+<th align="left">
 <small>PLA 3D-Printed Case and Housing</small>
 </th>
 
@@ -104,7 +104,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 </tr>
 
 <tr>
-<th>
+<th align="left">
 <small>USB Type-C Cable</small>
 </th>
 
@@ -114,7 +114,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 </tr>
 
 <tr>
-<th>
+<th align="left">
 <small>Servo Motor with Connecting Rod</small>
 </th>
 
