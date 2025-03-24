@@ -24,12 +24,12 @@ This project implemented a fan with the following features:
 
 <tr>
   
-<th align="center" style="display: flex; flex-direction: column">
+<th align="center">
 <small>Turn (Left)</small>
 <video src='https://github.com/user-attachments/assets/a7d5c35e-6d0c-4e75-ad39-ca346158de2c' width=180/></video>
 </th>
   
-<th align="center" style="display: flex; flex-direction: column">
+<th align="center">
 <small>Turn (Right)</small>
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80' width=180/></video>
 </th>
@@ -66,12 +66,12 @@ This project implemented a fan with the following features:
 
 <tr>
   
-<th align="center">
+<th align="center" style="display: flex; flex-direction: column">
 <small>Fan + Phone Interface</small>
 <img src='https://github.com/user-attachments/assets/4c78e68e-ed5b-43d4-a557-06008b673f71' width=180></img>
 </th>
 
-<th align="center">
+<th align="center" style="display: flex; flex-direction: column">
 <small>Phone Interface</small>
 <img src='https://github.com/user-attachments/assets/5e861817-e366-432e-806f-c15522aa40db' width=180></img>
 </th>
