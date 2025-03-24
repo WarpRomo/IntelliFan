@@ -1,4 +1,6 @@
 # IntelliFan
+Created in collaboration between De Anza College & Infineon Technologies. Using the PSoC™ 6 AI Evaluation Kit and Raspberry Pi 4.
+
 ## Features
 - Autotracking of people in front of the fan
 - Gestures such as swiping left / right / up / down, to control the fan
