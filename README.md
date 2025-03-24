@@ -74,7 +74,7 @@ Gesture detection is done through radar using the BGT60TR13C sensor on the PSOC 
 
 The user can control the fan through their phone or laptop by connecting to the web server hosted over HTTP on the same WiFi.<br>Created by Warren and Zilu.
 <details>
-<summary>Web App Demo</summary>
+<summary>Web-app Demo</summary>
   <div align="center">
 <video src='https://github.com/user-attachments/assets/1f611cf5-d45a-4a99-9636-2c5b928b5efd'></video>
 </details>
