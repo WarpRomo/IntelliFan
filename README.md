@@ -1,9 +1,9 @@
 # IntelliFan
-This project implemented a fan with the following features:
--Autotracking of people in front of the fan
--Gestures such as swiping left / right / up / down, to control the fan
--Webapp so user can control fan with their phone / laptop
--3D models to house the fan and its components
+Features:
+- Autotracking of people in front of the fan
+- Gestures such as swiping left / right / up / down, to control the fan
+- Webapp so user can control fan with their phone / laptop
+- 3D models to house the fan and its components
 
 <p align="center">
 <img src='https://github.com/user-attachments/assets/d4c054e9-74d1-4dd2-a89b-95fae2e95bcb' width=500></img>
