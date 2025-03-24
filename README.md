@@ -10,12 +10,12 @@ This project implemented a fan with the following features:
 
 <details>
 <summary>Turn On (Up)</summary>
-[Demo](https://github.com/user-attachments/assets/34af48d3-125a-4831-8df4-11eee752b68b)
+<video src='https://github.com/user-attachments/assets/34af48d3-125a-4831-8df4-11eee752b68b'></video>
 </details>
 
 <details>
 <summary>Turn Off (Down)</summary>
-<video src='https://github.com/user-attachments/assets/2ebcd7f2-937f-46ff-b61b-a43e5f5f2be0' width=50></video>
+<video src='https://github.com/user-attachments/assets/2ebcd7f2-937f-46ff-b61b-a43e5f5f2be0'></video>
 </details>
 
 <details>
