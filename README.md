@@ -1,5 +1,5 @@
 # IntelliFan
-Features:
+## Features
 - Autotracking of people in front of the fan
 - Gestures such as swiping left / right / up / down, to control the fan
 - Webapp so user can control fan with their phone / laptop
