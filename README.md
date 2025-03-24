@@ -6,6 +6,7 @@
 </p>
 
 ## Features
+Project Goal: Develop a smart fan that utilizes modern AI-driven human detection and gesture recognition to autonomously track and follow the user, providing a touch-free control experience.
 - Autotracking of people in front of the fan
 - Gestures such as swiping left / right / up / down, to control the fan
 - Web-app so user can control fan with their phone / laptop
