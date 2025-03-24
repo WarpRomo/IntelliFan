@@ -30,9 +30,11 @@ Change Person (Left)
 <video src='https://github.com/user-attachments/assets/9f6676e9-851d-4928-b4ec-0806f0841664' width=180/></video>
 Change Person (Right)
 
-![image](https://github.com/user-attachments/assets/4c78e68e-ed5b-43d4-a557-06008b673f71)
+<img src='https://github.com/user-attachments/assets/4c78e68e-ed5b-43d4-a557-06008b673f71' width=180></img>
+Fan + Phone Interface
 
-![image](https://github.com/user-attachments/assets/5e861817-e366-432e-806f-c15522aa40db)
+<img src='https://github.com/user-attachments/assets/5e861817-e366-432e-806f-c15522aa40db' width=180></img>
+Phone Interface
 
 
 
