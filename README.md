@@ -59,7 +59,7 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80'></video>
 </details>
 
-# Components
+# Components / Replication Cost
 
 <table>
   
@@ -67,11 +67,19 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <th>
 <small>Infineon PSoC™ 6 AI Evaluation Kit</small>
 </th>
+  
+<th>
+<small>$38.75</small>
+</th>
 </tr>
   
 <tr>
 <th>
-<small>Raspberry Pi 4 Model B (8GB RAM)</small>
+<small>Raspberry Pi 4 Model B (8GB RAM) + 32GB microSD Card</small>
+</th>
+
+<th>
+<small>$39.99</small>
 </th>
 </tr>
 
@@ -79,11 +87,19 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <th>
 <small>Raspberry Pi Camera Module 3</small>
 </th>
+
+<th>
+<small>$14.49</small>
+</th>
 </tr>
 
 <tr>
 <th>
 <small>PLA 3D-Printed Case and Housing</small>
+</th>
+
+<th>
+<small>$6.99</small>
 </th>
 </tr>
 
@@ -91,11 +107,19 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <th>
 <small>USB Type-C Cable</small>
 </th>
+
+<th>
+<small>$4.99</small>
+</th>
 </tr>
 
 <tr>
 <th>
 <small>Servo Motor with Connecting Rod</small>
+</th>
+
+<th>
+<small>$1.99</small>
 </th>
 </tr>
 
