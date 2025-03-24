@@ -59,6 +59,48 @@ This project was created in collaboration between De Anza College & Infineon Tec
 <video src='https://github.com/user-attachments/assets/9fe7959b-e4da-4ded-935b-c23732035c80'></video>
 </details>
 
+# Components
+
+<table>
+  
+<tr>
+<th>
+<small>Infineon PSoC™ 6 AI Evaluation Kit</small>
+</th>
+</tr>
+  
+<tr>
+<th>
+<small>Raspberry Pi 4 Model B (8GB RAM)</small>
+</th>
+</tr>
+
+<tr>
+<th>
+<small>Raspberry Pi Camera Module 3</small>
+</th>
+</tr>
+
+<tr>
+<th>
+<small>PLA 3D-Printed Case and Housing</small>
+</th>
+</tr>
+
+<tr>
+<th>
+<small>USB Type-C Cable</small>
+</th>
+</tr>
+
+<tr>
+<th>
+<small>Servo Motor with Connecting Rod</small>
+</th>
+</tr>
+
+</table>
+
 
 
 
