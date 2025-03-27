@@ -9,7 +9,7 @@ Project Goal: Develop a smart fan that utilizes modern AI-driven human detection
 - Autotracking of people in front of the fan
 - Gestures such as swiping left / right / up / down, to control the fan
 - Web-app so user can control fan with their phone / laptop
-- 3D models to house the fan and its components
+- 3D models to house the fan and its components, snap fit design
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/c37bad27-6932-42db-a552-c7289d9f442d"></img>
